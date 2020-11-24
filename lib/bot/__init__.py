@@ -146,7 +146,6 @@ class Bot(BotBase):
             # )
             # embed.set_footer(text="FGaBoX Trolleos")
             # await channel.send(embed=embed)
-            await self.stdout.send("Bot Online.")
             await bot.change_presence(
                 activity=discord.Game(name="Desarrollado En Python 🐍")
             )
